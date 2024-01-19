@@ -1,0 +1,98 @@
+body{
+    background-color: #000019;
+    font-family: "Lilita One";
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.menu_logo{
+    max-width: 150px;
+}
+.menu_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.menu_lista_item{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff5c81;
+    font-family: "Press Start 2P";
+}
+.menu_curriculo{
+    background-color: #ff5c81;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    font-family: "Press Start 2P";
+}
+.banner{
+    background-image: url("https://wallpaperaccess.com/full/6272395.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.banner_infos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 60vh;
+    padding: 20px;
+    border-radius: 0 0 60px 60px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+.banner_infos_imagem{
+    max-width: 400px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.banner_infos_nome{
+    font-family: "Press Start 2P";
+    font-size: 40px;
+    color: white;
+}
+.banner_infos_cargo{
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    color: #ff5c81;
+}
+.sobre{
+max-width: 80vw;
+margin: 60px auto;
+border-top: 10px solid red;
+border-bottom: 10px solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+}
+.sobre_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+.sobre_info_titulo{
+    font-size: 30px;
+    font-family: "Press Start 2P";
+}
+.sobre_info_texto{
+    line-height: 1.5;
+    font-size: 24px;
+}
+.sobre_imagem{
+    border-radius: 30px;
+}
